@@ -14,7 +14,7 @@ key.properties içerisine yazılacak olan kod:
 storePassword= "az önce belirlemiş olduğunuz keystore şifresi"
 keyPassword= "az önce belirlemiş olduğunuz key şifresi"
 keyAlias=key
-storeFile=c:/key.jks
+storeFile=D:/key.jks
 ```
 
 ---
