@@ -46,4 +46,5 @@ APK olusturmak için terminale yazılacak olan komut:
 
 ```
 flutter build apk --split-per-abi
+flutter build appbundle --split-per-abi
 ```
