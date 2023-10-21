@@ -1,14 +1,12 @@
-# Flutter-APK-Olusturma
 
-terminale yazılacak olan komut:
-
+terminal generate keygen
 ```
 keytool -genkey -v -keystore D:\key.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias key
 ```
 
 ---
 
-key.properties içerisine yazılacak olan kod:
+key.properties:
 
 ```
 storePassword= 
