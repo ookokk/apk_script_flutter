@@ -6,7 +6,7 @@ keytool -genkey -v -keystore D:\key.jks -storetype JKS -keyalg RSA -keysize 2048
 
 ---
 
-key.properties:
+project/android/key.properties:
 
 ```
 storePassword= 
@@ -17,7 +17,7 @@ storeFile=D:/key.jks
 
 ---
 
-build.gradle içerisine yazılacak olan kodlar:
+android/app/build.gradle
 
 ```
 def keyProperties = new Properties()
