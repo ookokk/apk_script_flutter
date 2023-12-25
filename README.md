@@ -6,7 +6,7 @@ keytool -genkey -v -keystore D:\key.jks -storetype JKS -keyalg RSA -keysize 2048
 
 ---
 
-project/android/key.properties:
+project/android/key.properties: 
 
 ```
 storePassword= 
@@ -17,8 +17,8 @@ storeFile=D:/key.jks
 
 ---
 
-android/app/build.gradle
-
+android/app/build.gradle 
+paste this top of android{}
 ```
 def keyProperties = new Properties()
 def keyPropertiesFile = rootProject.file('key.properties')
@@ -26,7 +26,7 @@ if(keyPropertiesFile.exists()){
     keyProperties.load(new FileInputStream(keyPropertiesFile))
 }
 ```
-
+paste this top of signinConfigs
 ```
 signingConfigs{
         release{
