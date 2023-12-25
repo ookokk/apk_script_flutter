@@ -48,5 +48,7 @@ flutter build apk --split-per-abi
 appbundle = 
 ```
 flutter build appbundle
+```
+```
 flutter build appbundle --build-name=1.0.0 --build-number=1
 ```
